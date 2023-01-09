@@ -12,6 +12,7 @@
   <packaging>pom</packaging>
   <modules>
 	  <module>msvc.leer.plano</module>
+	  <module>msvc.generar.plano.netsuit</module>
   </modules>
   <name>Integrador.oracle.mld</name>
   <description>Integrador Oracle Modular por microservicios (mscv)</description>
