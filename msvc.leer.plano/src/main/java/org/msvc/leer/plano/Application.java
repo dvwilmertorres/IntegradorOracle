@@ -1,4 +1,4 @@
-package msvcleerplano;
+package org.msvc.leer.plano;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -7,16 +7,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class Application {
-    
+
 	private static Logger logger = LoggerFactory.getLogger(Application.class);
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
-		try {
-			logger.info("Inicia proyecto Integrador 2.0");
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		logger.info("Inicia el proceso de Lectura de archivo Plano");
 	}
 
 }
