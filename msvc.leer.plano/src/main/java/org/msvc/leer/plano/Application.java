@@ -11,7 +11,12 @@ public class Application {
 	private static Logger logger = LoggerFactory.getLogger(Application.class);
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
-		logger.info("Inicia el proceso de Lectura de archivo Plano");
+		try {
+			logger.info("Inicia el proceso de Lectura de archivo Plano");
+		}
+		catch(Exception e) {
+			logger.error("Inicia Proceso de generar archivo plano de NetSuit");
+		}
 	}
 
 }
